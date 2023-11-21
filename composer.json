@@ -1,0 +1,19 @@
+{
+    "name": "diego/health-middleware",
+    "type": "library",
+    "require": {
+        "psr/http-server-middleware": "^1.0.0",
+        "psr/http-message": "^1.1",
+        "typo3/cms-core": ">=9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Diego\\HealthMiddleware\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Diego"
+        }
+    ]
+}
