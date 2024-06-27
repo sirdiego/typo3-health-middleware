@@ -1,6 +1,7 @@
 {
     "name": "diego/health-middleware",
     "type": "library",
+    "license": "MIT",
     "require": {
         "psr/http-server-middleware": "^1.0.0",
         "psr/http-message": "^1.1 || ^2.0",
