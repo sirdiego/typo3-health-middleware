@@ -1,6 +1,14 @@
 # TYPO3 Health Middleware
 
+## Installation
+
+`composer require diego/health-middleware`
+
+## Configuration (example)
+
 ```php
+# Configuration/RequestMiddlewares.php
+
 <?php declare(strict_types=1);
 
 use Diego\HealthMiddleware\HealthMiddleware;
@@ -15,5 +23,6 @@ return [
             ],
             'disabled' => !Environment::getContext()->isDevelopment(),
         ],
+    ],
 ];
 ```
